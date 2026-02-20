@@ -1,0 +1,7 @@
+[
+    {
+        "alert_type": "SSH Brute Force Detected",
+        "attacker_ip": "192.168.1.10",
+        "failed_attempts": 5
+    }
+]
