@@ -32,12 +32,13 @@ def detect_bruteforce(log_file, threshold=5, time_window=60):
 
             if len(window) >= threshold:
                 alert = {
-                    "module": "brute_force",
-                    "alert_type": "SSH Brute Force Detected",
-                    "attacker_ip": ip,
-                    "failed_attempts": len(window),
-                    "time_window_seconds": time_window
-                }
+       "module": "brute_force",
+       "alert_type": "SSH Brute Force Detected",
+       "severity": "MEDIUM",
+       "attacker_ip": ip,
+       "failed_attempts": len(window),
+       "time_window_seconds": time_window
+         }
                 alerts.append(alert)
                 break
 
