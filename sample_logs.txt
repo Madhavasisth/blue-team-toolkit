@@ -3,4 +3,4 @@ Jul 20 10:01:25 server sshd[1234]: Failed password for invalid user admin from 1
 Jul 20 10:01:27 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 34564 ssh2
 Jul 20 10:01:30 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 34565 ssh2
 Jul 20 10:01:35 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 34566 ssh2
-Jul 20 10:02:10 server sshd[1234]: Accepted password for user john from 192.168.1.20 port 34567 ssh2
+Jul 20 10:02:00 server sshd[1234]: Accepted password for user admin from 192.168.1.10 port 34570 ssh2

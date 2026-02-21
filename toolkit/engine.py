@@ -1,5 +1,6 @@
 import json
 from toolkit.brute_force import detect_bruteforce
+from toolkit.suspicious_login import detect_suspicious_login
 
 
 def run_all_detectors(log_file, threshold, window):
@@ -7,6 +8,9 @@ def run_all_detectors(log_file, threshold, window):
 
     # Module 1
     alerts.extend(detect_bruteforce(log_file, threshold, window))
+
+    # Module 2
+    alerts.extend(detect_suspicious_login(log_file, threshold, window))
 
     return alerts
 
